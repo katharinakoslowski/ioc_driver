@@ -56,6 +56,7 @@ struct file_operations ioc_fops =
 
 static void ioc_workqueue_handler(struct work_struct *p_work)
 {
+    // TODO clean up
     struct ioc_dev *dev;
     int workpos = 0; 
     int datalen = 0;
@@ -211,6 +212,7 @@ static ssize_t ioc_write(struct file *p_filp, const char __user *p_buf, size_t p
 
 static int __init ioc_driver_init(void)
 {
+    // TODO clean up
     pr_info("Initializing ioc_device driver.");
     int result, i;
 	dev_t dev = MKDEV(ioc_major, 0);
@@ -281,7 +283,6 @@ static void __exit ioc_driver_exit(void)
         }
         list_del(&cursor->list);
         kfree(cursor);
-        //kfree(temp);
         unregister_chrdev_region(cursor->cdev.dev, 1);
         device_destroy(dev_class, cursor->cdev.dev);
         cdev_del(&cursor->cdev);
