@@ -1,0 +1,47 @@
+[   77.662332] ioc_driver: Initializing ioc_device driver.
+[   77.662733] ioc_driver: Loaded ioc_device0.
+[   77.662974] ioc_driver: Loaded ioc_device1.
+[   77.665867] ioc_driver: Loaded ioc_device2.
+[   77.666113] ioc_driver: Loaded ioc_device3.
+[   77.666299] ioc_driver: Initialized 4 device drivers.
+[   93.153643] ioc_driver: "Lorem" in ioc_device0
+[   94.173416] ioc_driver: "ipsum" in ioc_device0
+[   95.198443] ioc_driver: "dolor" in ioc_device0
+[   96.222507] ioc_driver: "sit" in ioc_device0
+[   97.246952] ioc_driver: "amet," in ioc_device0
+[   98.269154] ioc_driver: "consectetur" in ioc_device1
+[   99.165153] ioc_driver: "Ut" in ioc_device3
+[   99.294201] ioc_driver: "adipiscing" in ioc_device1
+[  100.189768] ioc_driver: "enim" in ioc_device3
+[  100.318683] ioc_driver: "elit," in ioc_device1
+[  101.219563] ioc_driver: "ad" in ioc_device3
+[  101.341577] ioc_driver: "sed" in ioc_device2
+[  102.238686] ioc_driver: "minim" in ioc_device3
+[  102.367274] ioc_driver: "do" in ioc_device2
+[  103.262027] ioc_driver: "veniam," in ioc_device3
+[  103.391347] ioc_driver: "eiusmod" in ioc_device2
+[  104.287422] ioc_driver: "quis" in ioc_device3
+[  104.415160] ioc_driver: "tempor" in ioc_device2
+[  105.314741] ioc_driver: "nostrud" in ioc_device3
+[  105.438461] ioc_driver: "incididunt" in ioc_device2
+[  106.335494] ioc_driver: "exercitation" in ioc_device3
+[  106.463100] ioc_driver: "ut" in ioc_device2
+[  107.360677] ioc_driver: "ullamco" in ioc_device3
+[  107.487345] ioc_driver: "labore" in ioc_device2
+[  108.383829] ioc_driver: "laboris" in ioc_device3
+[  108.511138] ioc_driver: "et" in ioc_device2
+[  109.409066] ioc_driver: "nisi" in ioc_device3
+[  109.536585] ioc_driver: "dolore" in ioc_device2
+[  110.431143] ioc_driver: "ut" in ioc_device3
+[  110.558501] ioc_driver: "magna" in ioc_device2
+[  111.453827] ioc_driver: "aliquip" in ioc_device3
+[  111.582624] ioc_driver: "aliqua." in ioc_device2
+[  112.479794] ioc_driver: "ex" in ioc_device3
+[  113.503932] ioc_driver: "ea" in ioc_device3
+[  114.526288] ioc_driver: "commodo" in ioc_device3
+[  115.553111] ioc_driver: "consequat" in ioc_device3
+[  177.332406] ioc_driver: Unloaded ioc_device0.
+[  177.332415] ioc_driver: Unloaded ioc_device1.
+[  177.332419] ioc_driver: Unloaded ioc_device2.
+[  177.332423] ioc_driver: Unloaded ioc_device3.
+[  177.332507] ioc_driver: Unloaded ioc_driver.
