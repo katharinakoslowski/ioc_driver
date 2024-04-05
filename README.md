@@ -17,7 +17,7 @@ When manually starting the module, the following parameters can be set:
 -  `ioc_word_dlm=int`: if > 0, whitespace is used as a word delimiter; otherwise each char is a word (default: 1)
 
 ### Log file
-To recreate the output in x, initialize the module with `init.sh` and use `sudo bash io_calls.sh` to write data to the device files.
+To recreate log output similiar to `kernel.log`, initialize the module with `init.sh` and use `sudo bash io_calls.sh` to write data to the device files.
 
 ### Bugs
 - Module verification fails 
